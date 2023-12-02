@@ -5,6 +5,7 @@ namespace AdventOfCode2022.Running;
 
 [MemoryDiagnoser(false)]
 [Orderer(SummaryOrderPolicy.Method, MethodOrderPolicy.Alphabetical)]
+[InProcess]
 public class DayBenchCSharp
 {
 
